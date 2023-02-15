@@ -65,9 +65,11 @@ const Tempapp = () => {
                         </div>
                         ) }
                     
-                        
+                    <div className='foo'>
+                        Adwait G © Copyright 2023 
+                        </div>            
             </div>
-        
+            
 
     )
 }
