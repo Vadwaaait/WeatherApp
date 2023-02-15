@@ -41,6 +41,7 @@ const Tempapp = () => {
                         <div>
                         <div className='info'>
                             <h2 className='location'>
+                              
                             <i id='fas' className="fa-solid fa-street-view"></i>{search}
                             </h2>
 
@@ -50,7 +51,7 @@ const Tempapp = () => {
                             </h1>
 
                             <h3 className='tempmin_max'>
-                               Min : {city.temp_max}°C | Max : {city.temp_min}°C
+                               Max : {city.temp_max}°C | Min : {city.temp_min}°C
 
                             </h3>
 
