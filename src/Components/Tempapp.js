@@ -1,5 +1,6 @@
 import React, { Component, useEffect, useState } from 'react'
 import "./CSS/styles.css";
+import Weathericon from "./Weathericon"
 const Tempapp = () => {
 
 
@@ -41,8 +42,8 @@ const Tempapp = () => {
                         <div>
                         <div className='info'>
                             <h2 className='location'>
-                              
-                            <i id='fas' className="fa-solid fa-street-view"></i>{search}
+                            <Weathericon temp={city.temp} searchh={search}/>
+                            
                             </h2>
 
                             <h1 className='temp'>
@@ -54,16 +55,19 @@ const Tempapp = () => {
                                Max : {city.temp_max}°C | Min : {city.temp_min}°C
 
                             </h3>
+                          
 
           
           
                         </div>
-          
+                            
           
                         <div className='wave -one'></div>
                         <div className='wave -two'></div>
                         <div className='wave -three'></div>
+                        
                         </div>
+                        
                         ) }
                               
             </div>
