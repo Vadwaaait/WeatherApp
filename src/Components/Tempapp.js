@@ -64,10 +64,7 @@ const Tempapp = () => {
                         <div className='wave -three'></div>
                         </div>
                         ) }
-                    
-                    <div className='foo'>
-                        Adwait G © Copyright 2023 
-                        </div>            
+                              
             </div>
             
 
